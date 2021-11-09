@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Dasgal 1 </title>
+<meta charset="utf-8">
+</head>
+<style type="text/css" media="screen">
+</style>
+<body>
+<script>
+
+var name = window.prompt("Нэрээ оруулна уу.")
+var palindrome = "";
+if(name.length > 1){
+
+for (var i = name.length - 1; i>=0; i--){
+palindrome += name[i].toLowerCase();
+}
+if (name.toLowerCase() == palindrome){
+alert("Palindrom мөн байна.");
+} else {
+alert("Palindrom биш байна.");
+}
+} else {
+alert("Palindrom биш байна.");
+}
+
+</script>
+
+</body>
+</html>
